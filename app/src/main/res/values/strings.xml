@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyDemoApp</string>
+    <string name="enter_your_username">Enter Username</string>
+    <string name="password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="daily_news">Dashboard</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="user_name_empty_error">User name can not be empty</string>
+    <string name="passowrd_empty_error">password can not be empty</string>
+</resources>
