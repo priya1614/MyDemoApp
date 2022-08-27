@@ -29,6 +29,7 @@ abstract class BaseFragment : Fragment(), LifecycleOwner {
         savedInstanceState: Bundle?
     ): View {
         val view = inflater.inflate(layoutId(), container, false)
+
         return view
     }
 }
