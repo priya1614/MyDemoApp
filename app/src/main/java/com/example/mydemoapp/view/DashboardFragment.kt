@@ -117,6 +117,7 @@ class DashboardFragment(mail: String) : Fragment() {
 
     @SuppressLint("MissingPermission")
     private fun getLastLocation() {
+
         try {
             fusedLocationClient?.lastLocation?.addOnCompleteListener { task ->
                 if (task.isSuccessful && task.result != null) {
